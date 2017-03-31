@@ -16,8 +16,8 @@ def film
 		    @msg={:Title => x[1], :Year=>x[2]}
   			 format.json{render :json => @msg}
   			 format.xml {render :xml => @msg }
-  			 format.html{render :html => @msg }
-		end
+  			 format.html{render :html => @msg 
+}		end
 
   end
  
