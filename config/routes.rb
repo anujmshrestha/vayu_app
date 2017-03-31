@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get 'film',to: 'foo#film'
   get 'home',to:'foo#home'
   root 'foo#film'
+  
 end
